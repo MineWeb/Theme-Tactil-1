@@ -38,7 +38,7 @@ $(document).ready(function() {
 						<div class="panel-heading text-center"><h3>Compte</h3></div><hr>
 							<?php if($isConnected) { ?>
 							<button style="opacity: 1;" class="btn btn-block categories disabled">Vous
-								avez <?= ($isConnected) ? $money.' '.$Configuration->getMoneyName() : $Lang->get('SHOP__TITLE');
+								avez <?= ($isConnected) ? $money : $Lang->get('SHOP__TITLE');
 								?>
 							</button>
 							<?php if($Permissions->can('CREDIT_ACCOUNT')) { ?>
