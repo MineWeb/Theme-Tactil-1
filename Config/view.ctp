@@ -69,13 +69,6 @@ echo $this->Html->script('admin/tinymce/tinymce.min.js');
 										<?= $this->element('form.input.upload.img', $form_input) ?>
 									</div>
 									<div class="form-group">
-										<label>Favicon du site</label>
-										<p>Entrez l'url du Favicon.</p>
-										<input type="text" value="<?= $config['favicon_url'] ?>"
-											   placeholder="Favicon url" class="form-control"
-											   name="favicon_url" cols="30" rows="10">
-									</div>
-									<div class="form-group">
 										<label>Slider</label>
 										<div class="col-md-12">
 											<p>Titre</p>
