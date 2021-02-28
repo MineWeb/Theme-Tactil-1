@@ -109,7 +109,7 @@
 						<?php endif; ?>
 					</div>
 					<div class="col-xs-12 deco-border">
-						<a href="<?= $this->Html->url(array('controller' => 'user', 'action' => 'logout', 'plugin' => null)) ?>" class="deco-box">DECONNECTION</a>
+						<a href="<?= $this->Html->url(array('controller' => 'user', 'action' => 'logout', 'plugin' => null)) ?>" class="deco-box">DECONNEXION</a>
 					</div>
 				</div>
 				<?php endif; ?>
