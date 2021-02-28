@@ -58,7 +58,7 @@
 							<?= $users_count_today ?>
 						</div>
 						<div class="stats-subtitle">
-							Nombre d'inscrit aujourd'hui
+							Nombre d'inscrits aujourd'hui
 						</div>
 					</div>
 				</div>
